@@ -1,2 +1,2 @@
 # Catalogo-doceria
- criando um e-commerce usando HTML, CSS e Javascript
+ criando um catalogo de produtos usando HTML, CSS e Javascript
