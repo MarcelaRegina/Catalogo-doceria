@@ -48,7 +48,7 @@ section{
 }
 
 .heading{
-    background: url("img/heading-bg.jpg") no-repeat;
+    background: url("./style/images/heading-bg.jpg") no-repeat;
     background-size:cover;
     background-position: center;
     text-align: center;
@@ -105,7 +105,7 @@ section{
 }
 
 .header .logo i{
-    color:#222;
+    color:#fef2f2;
     padding-right: .5rem;
 }
 
@@ -116,7 +116,7 @@ section{
 }
 
 .header .navbar a:hover{
-    color: #222;
+    color: #d3d2d2;
 }
 
 .header .icons div{
@@ -127,7 +127,7 @@ section{
 }
 
 .header .icons div:hover{
-    color: #222;
+    color: #ffffff;
 }
 
 #menu-btn{
@@ -150,7 +150,7 @@ section{
 
 .home{
     padding-top: 14rem;
-    background: url(img/home-bg1.jpg) no-repeat;
+    background: url(./style/images/backimg.png) no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -213,7 +213,7 @@ section{
 .home #prev-slide:hover{
     background:#222;
     color: #fff;
-    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    box-shadow: 0 0.5rem 1rem rgba(88, 83, 83, 0.1);
 }
 
 .home #prev-slide{
@@ -236,6 +236,7 @@ section{
     overflow: hidden;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
     border:0.1rem solid rgba(0,0,0,0.7);
+    border-radius:3% ;
 }
 
 .banner-container .banner img{
@@ -281,11 +282,12 @@ section{
     text-align:center;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
     border:0.1rem solid rgba(0,0,0,0.7);
+    border-radius: 3%;
 }
 
 .category .box-container .box img{
     height:15rem;
-    width:21rem;
+    width:23rem;
 }
 
 .category .box-container .box h3{
@@ -295,7 +297,7 @@ section{
 }
 
 .category .box-container .box:hover h3{
-    color: #fff;
+    color: #1e1717;
 }
 
 .products .box-container {
@@ -429,7 +431,7 @@ section{
     height:25rem;
     overflow: hidden;
     position: relative;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0.5rem 1rem rgba(119, 110, 110, 0.7);
     border:0.1rem solid rgba(0,0,0,0.7);
 }
 
@@ -481,7 +483,7 @@ section{
     gap: 1.5rem;
     padding: 2rem 0;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
-    border:0.1rem solid rgba(0,0,0,0.7);
+    border:0.1rem solid rgba(96, 88, 88, 0.7);
     background: #fff;
 }
 .info-container .info:hover{
@@ -511,7 +513,7 @@ section{
 
 .review .box{
     padding: 2rem;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0.5rem 1rem rgba(146, 137, 137, 0.7);
     border:0.1rem solid rgba(0,0,0,0.7)
 }
 
@@ -555,7 +557,7 @@ section{
 
 .blogs .box-container .box{
     border:0.1rem solid rgba(0,0,0,0.7);
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0.5rem 1rem rgba(88, 84, 84, 0.7);
 }
 
 .blogs .box-container .box .img:hover img{
@@ -622,7 +624,7 @@ section{
 .contact .icons-container .icons{
     text-align: center;
     border: 0.1rem solid rgba(0,0,0,0.7);
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0.5rem 1rem rgba(145, 131, 131, 0.7);
     padding:2rem;
 }
 
@@ -640,12 +642,14 @@ section{
     color:#222;
     font-size: 2rem;
     padding:1rem 0;
+    border-radius: 3%;
 }
 
 .contact .icons-container .icons p{
     color:#222;
     font-size: 1.5rem;
     line-height: 2;
+    border-radius: 3%;
 }
 
 .contact .row{
@@ -653,25 +657,29 @@ section{
     flex-wrap: wrap;
     gap: 1.5rem;
     margin-top: 2rem;
+    border-radius: 3%;
 }
 
 .contact .row form{
     padding:2rem;
     border: 0.1rem solid rgba(0,0,0,0.7);
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0.5rem 1rem rgba(118, 108, 108, 0.7);
     flex: 1 1 40rem;
+    border-radius: 3%
 }
 
 .contact .row form h3{
     font-size: 2.5rem;
     padding-bottom: 1rem;
     color: #222;
+    border-radius: 3%
 }
 
 .contact .row form .inputBox{
     display: flex;
     justify-content:space-between;
     flex-wrap: wrap;
+    border-radius: 3%;
 }
 
 .contact .row form .inputBox .box,
@@ -679,10 +687,11 @@ section{
     padding:1rem 1.2rem;
     font-size: 1.6rem;
     border: 0.1rem solid rgba(0,0,0,0.7);
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0.5rem 1rem rgba(164, 149, 149, 0.7);
     color: #222;
     text-transform:none;
     margin: .7rem 0;
+    border-radius: 3%;
 }
 
 .contact .row form textarea{
@@ -748,7 +757,7 @@ section{
     width: 100%;
     padding:1rem 1.2rem;
     font-size: 1.6rem;
-    color: #000;
+    color: #776969;
     margin: 1rem 0;
     text-transform: none;
 }
@@ -762,7 +771,7 @@ section{
 .credit{
     text-align: center;
     background:var(--brown);
-    color: #000;
+    color: #454040;
     font-size:2rem;
 }
 
@@ -799,7 +808,7 @@ section{
         top: 99%;
         left: 0;
         right: 0;
-        background:#222;
+        background:#fff2f2;
         border-top: 0.1rem solid rgba(0,0,0,0.1);
         border-bottom: 0.1rem solid rgba(0,0,0,0.1);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
